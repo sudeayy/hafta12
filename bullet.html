@@ -4,22 +4,22 @@
 
 <h2>Bahis Oyunu</h2>
 
-<p id="resultText">Bahis yap</p>
+<p id="resultText">Bahis Oyna </p>
 
 <img id="walletImage" src="" style="width:300px"><br><br>
 
-<button onclick="bahisYap('fenerbahce')">Fenerbahçe</button>
-<button onclick="bahisYap('galatasaray')">Galatasaray</button>
+<button onclick="bahisOyna('fenerbahce')">Fenerbahçe</button>
+<button onclick="bahisOyna('galatasaray')">Galatasaray</button>
 
 <script>
-  function bahisYap(takim) {
+  function bahisOyna(takim) {
     var sans = Math.random();
     var kazandi = sans < 0.5;
 
     if (takim === "fenerbahce") {
       if (kazandi) {
         document.getElementById("walletImage").src = "https://upload.wikimedia.org/wikipedia/tr/thumb/8/86/Fenerbah%C3%A7e_SK.png/250px-Fenerbah%C3%A7e_SK.png"; 
-        document.getElementById("resultText").innerText = "Fenerbahçe kazandı! ";
+        document.getElementById("resultText").innerText = "Fenerbahçe kazandi! ";
       } else {
         document.getElementById("walletImage").src = "https://yt3.googleusercontent.com/Js3-IqMFlaRuEIF9_zBEh1Tv-NWsjb1-gEnbmcLchAdunyssDC2mguOpvxQJ62CIwIkjvx0--0k=s900-c-k-c0x00ffffff-no-rj"; 
         document.getElementById("resultText").innerText = "Fenerbahçe kaybetti!";
@@ -29,7 +29,7 @@
     if (takim === "galatasaray") {
       if (kazandi) {
         document.getElementById("walletImage").src = "https://yt3.googleusercontent.com/Js3-IqMFlaRuEIF9_zBEh1Tv-NWsjb1-gEnbmcLchAdunyssDC2mguOpvxQJ62CIwIkjvx0--0k=s900-c-k-c0x00ffffff-no-rj"; 
-        document.getElementById("resultText").innerText = "Galatasaray kazandı! ";
+        document.getElementById("resultText").innerText = "Galatasaray kazandi! ";
       } else {
         document.getElementById("walletImage").src = "https://upload.wikimedia.org/wikipedia/tr/thumb/8/86/Fenerbah%C3%A7e_SK.png/250px-Fenerbah%C3%A7e_SK.png"; 
         document.getElementById("resultText").innerText = "Galatasaray kaybetti!";
