@@ -1,0 +1,5 @@
+Bu hafta HTML ve JavaScript ile basit bir bahis oyunu yaptık.
+Kullanıcının tahminiyle rastgele belirlenen sonucu karşılaştırıp ekranda gösterdik. 
+web sayfasındaki metin ve görselleri JavaScript ile değiştirmeyi öğrendik.
+Butona tıklanınca ekrandaki yazı ve resim sonuca göre değişiyor.
+Böylece, kullanıcı etkileşimli ve rastgele sonuç üreten bir web uygulaması oluşturmayı öğrendik.
